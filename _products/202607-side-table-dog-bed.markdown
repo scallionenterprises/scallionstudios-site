@@ -44,7 +44,7 @@ title: Side table with dog bed
     <img class="product-image" src="/assets/img/{{ page.path | split: "/" | last | remove: '.markdown'}}/feasibility.jpg" />
 </div>
 
-<p>A 90 degree bend can be achieved by kerf cutting, which is where multiple cuts mostly-through plywood (but not all the way through) are made close together, allowing space to bend the plywood. Then, hot water is poured all over to soften up the wood and then the plywood is clamped into a 90 degree shape I created some 90 degree bend wood scrap pieces to clamp to.</p>
+<p>A 90 degree bend can be achieved by kerf cutting, which is where multiple cuts mostly-through plywood (but not all the way through) are made close together, allowing space to bend the plywood. Then, hot water is poured all over to soften up the wood and then the plywood is clamped into a 90 degree shape. I created some 90 degree bend wood scrap pieces to clamp to.</p>
 
 <div class="product-images">
     <img class="product-image" src="/assets/img/{{ page.path | split: "/" | last | remove: '.markdown'}}/in_progress_half.jpg" />
