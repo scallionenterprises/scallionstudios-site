@@ -2,11 +2,14 @@ $width-desktop: 50%;
 $width-mobile: 90%;
 
 $padding-regular: 24px;
+$padding-small: 12px;
 
 $font-size-nav: 24px;
 
 @mixin for-mobile-only {
-  @media (max-width: 900px) { @content; }
+  @media (max-width: 900px) {
+    @content;
+  }
 }
 
 * {
@@ -19,6 +22,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: $padding-regular;
+}
+
+p {
+  margin-bottom: $padding-small;
+}
+
+hr {
+  margin: $padding-regular 0;
 }
 
 .wrapper {
@@ -39,7 +59,7 @@ body {
     flex: 1;
   }
 
-  > * {
+  >* {
     padding: $padding-regular 0;
   }
 
@@ -59,8 +79,8 @@ body {
         font-size: $font-size-nav;
         flex: 1;
       }
-      .other-links {
-      }
+
+      .other-links {}
     }
   }
 
@@ -72,6 +92,7 @@ body {
     nav {
       ul {
         list-style: none;
+
         a {
           text-decoration: underline;
           color: inherit;
@@ -92,9 +113,9 @@ body {
   grid-gap: $padding-regular;
 
   .item {
-    .img {
-      width: 100%;
-      height: auto;
+    img {
+      width: auto;
+      height: 350px;
     }
   }
 }
@@ -103,6 +124,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   .product-image {
     width: 100%;
     max-height: 500px;
@@ -116,7 +138,7 @@ table.product-info {
   margin: 0 auto;
   border-spacing: $padding-regular;
 
-  tr > td:first-child {
+  tr>td:first-child {
     font-weight: bold;
   }
 
