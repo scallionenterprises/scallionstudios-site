@@ -13,6 +13,10 @@ title: Coffee table with lift top
         <td>L 35.5" x W 17.5" x H 21.5"</td>
     </tr>
     <tr>
+        <td>Completed</td>
+        <td>January 2024</td>
+    </tr>
+    <tr>
         <td>Notes</td>
         <td>No screws anywhere except for securing the lift top to the table - only poplar and wood glue. Finished with satin polyurethane.</td>
     </tr>

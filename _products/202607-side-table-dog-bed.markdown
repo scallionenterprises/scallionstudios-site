@@ -18,7 +18,7 @@ title: Side table with dog bed
     </tr>
     <tr>
         <td>Notes</td>
-        <td>Only birth plywood used, including for curved corners. Stained with Varathane Dark Walnut and finished with satin water-based polyurethane.</td>
+        <td>Birch plywood for entire piece. Stained with Varathane Dark Walnut Classic Interior Wood Stain and finished with Varathane Ultimate Water-Based Polyurethane (water poly).</td>
     </tr>
 </table>
 
