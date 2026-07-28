@@ -1,0 +1,12 @@
+{% comment %}
+Linked product image: shows the *_small.jpg preview, opens the full-size original on click.
+
+Usage:
+  {% include product-image.html file="front.jpg" %}
+  {% include product-image.html file="front.jpg" alt="Front view" %}
+{% endcomment %}
+{% assign slug = page.path | split: "/" | last | remove: ".markdown" %}
+{% assign basename = include.file | split: "." | first %}
+<a class="product-image-link" href="/assets/img/{{ slug }}/{{ include.file }}" target="_blank" rel="noopener">
+  <img class="product-image" src="/assets/img/{{ slug }}/{{ basename }}_small.jpg" alt="{{ include.alt | default: page.title }}" />
+</a>
